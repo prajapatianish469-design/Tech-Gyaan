@@ -1,0 +1,1173 @@
+html {
+  scroll-behavior: smooth;
+}
+s
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+    scroll-behavior: smooth;
+    
+}
+body{
+    overflow-x: hidden;
+    
+}
+
+
+
+/*home*/
+
+ 
+
+
+.top a{
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: none;
+    color: #000;
+    position: fixed;
+    top: 0.5cm;
+    left: 10cm;
+    right: auto;
+    border: 2px solid#fff;
+    border-radius: 50px;
+    padding: 5px 15px;
+    transition: 0.3s;
+    text-decoration: none;
+    border-bottom: none;
+    text-shadow: 0PX 0PX 30PX rgba(255, 255,255,10);
+    z-index: 2;
+       
+}
+.nav-item{
+    color:#fff;
+    text-decoration: none;
+}
+.top a:hover{
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+
+/*Courses*/
+
+
+
+
+.B a{
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: none;
+    color: #000;
+    position: fixed;
+    top: 0.5cm;
+    left: 15cm;
+    right: auto;
+    border: 2px solid#fff;
+    border-radius: 50px;
+    padding: 5px 15px;
+    transition: 0.3s;
+    text-decoration: none;
+    border-bottom: none;
+    text-shadow: 0PX 0PX 30PX rgba(255, 255,255,10);
+    z-index: 2;
+}
+.nav-item{
+    color:#fff;
+    text-decoration: none;
+}
+.B a:hover{
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+
+/*Contact*/
+
+
+
+
+
+.C a{
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: none;
+    color: #000;
+    position: fixed;
+    top: 0.5cm;
+    left: 20cm;
+    right: auto;
+    border: 2px solid#fff;
+    border-radius: 50px;
+    padding: 5px 15px;
+    transition: 0.3s;
+    text-decoration: none;
+    border-bottom: none;
+    text-shadow: 0PX 0PX 30PX rgba(255, 255,255,10);
+       z-index: 2;
+}
+.nav-item{
+    color:#fff;
+    text-decoration: none;
+}
+.C a:hover{
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/*home*/
+
+
+
+
+.D a{
+    font-size: 25px;
+    font-weight: bold;
+    
+    border-bottom: none;
+    color: #000;
+    position: fixed;
+    top: 0.5cm;
+    left: 25cm;
+    right: auto;
+    border: 2px solid#fff;
+    border-radius: 50px;
+    padding: 5px 15px;
+    transition: 0.3s;
+    text-decoration: none;
+    border-bottom: none;
+    text-shadow: 0PX 2PX 30PX rgba(255, 255,255,10);
+    z-index: 2;
+       
+}
+.nav-item{
+    color:#fff;
+    text-decoration: none;
+}
+.D a:hover{
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    z-index: 2;
+}
+
+
+
+
+ /*tech gyaan*/
+
+
+
+
+.A{
+    font-size: 25px;
+    position: fixed;
+    top: 0cm;
+    left: 1cm;
+    right: auto;
+    color: #000;
+    z-index: 2;
+    text-shadow: #fff;
+    block-size: 2px;
+    
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0,0,0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.content section{
+    scroll-margin-top: 100vh;
+    scroll-behavior: smooth;
+}
+
+.content{
+    text-align: center;
+
+}
+.content h1{
+    font-size: 95px;
+    color: #fff;
+    margin-bottom: 50px;
+    text-shadow: 2px 4px 5px rgba(0, 0,0,010);
+
+}
+.content p{
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 15px 25px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.content p:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+.me .bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    object-fit: cover;
+    object-position: center;
+    filter: blur(10px);
+
+}
+
+  
+.glass-box{
+    width:100vw;
+    height: 80px;
+    margin: 0;
+    
+    background: rgba(255, 255,255,0.1);
+
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(53, 11, 83, 0.4);
+    
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    box-shadow: 2px 3px 40px;
+    overflow-x: hidden;
+}
+
+.ALL{
+    position: absolute;
+}
+
+
+
+
+
+    /* Basic*/
+.E {
+    width: 300px;
+    height: 550px;
+    perspective: 1000px; /* 3D perspective */
+    position: relative;
+    margin: 50px;
+    cursor: pointer;
+    top: 300px;
+    left: 30%;
+    
+}
+
+.FI {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+   
+}
+
+.E:hover .FI {
+    transform: rotateY(180deg); /* Flip effect */
+}
+.E section img {
+    position: absolute;
+    width: auto;
+    height: 200px;
+    top: 100px;
+    left: 17%;
+}
+
+.FF, .FB {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    padding: 20px;
+}
+
+.FF {
+   background: rgb(40, 33, 61);
+    color: #fff;
+    flex-direction: column;
+}
+
+.FB {
+    background:  rgb(253, 246, 236);
+    color: #000;
+    transform: rotateY(180deg); /* Back side flipped */
+    flex-direction: column;
+}
+
+/* Custom text & button styling */
+.E p {
+    font-size: 30px;
+    color: black;
+    position:absolute;
+    top: 280px;
+    left: 25%;
+    
+}
+.FB img{
+    position: absolute;
+    top: 35px;
+    left: 5%;
+    height: 70px;
+}
+
+.E h1 {
+    position: absolute;
+    font-size: 27px;
+    top: 100px;
+    left: 5%;
+    line-height: 19px;
+}
+
+.E h5 {
+    position: absolute;
+    font-size: 20px;
+    margin-bottom: 15px;
+    top: 190px;
+    left: 5%;
+}
+
+.BB {
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    bottom: 270px;
+    left: 5%;
+}
+
+.B1, .B2 {
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.E h6 {
+    position: absolute;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: start;
+    bottom: 72PX;
+    left: 5%;
+}
+
+
+
+
+
+ /* Tally Erp-9*/
+.F {
+    width: 300px;
+    height: 550px;
+    perspective: 1000px; /* 3D perspective */
+    position: relative;
+    margin: 50px;
+    cursor: pointer;
+    top: -300px;
+    left: 140%;
+}
+
+.FI {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.F:hover .FI {
+    transform: rotateY(180deg); /* Flip effect */
+}
+.F section img {
+    position: absolute;
+    width: auto;
+    height: 200px;
+    top: 100px;
+    left: 17%;
+}
+
+.FF, .FB {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    padding: 20px;
+}
+
+.FF {
+    background: rgb(238, 213, 183);
+    color: #fff;
+    flex-direction: column;
+}
+
+.FB {
+    background:  rgb(253, 246, 236);
+    color: #000;
+    transform: rotateY(180deg); /* Back side flipped */
+    flex-direction: column;
+}
+
+/* Custom text & button styling */
+.F p {
+    font-size: 30px;
+    color: black;
+    position:absolute;
+    top: 280px;
+    left: 25%;
+    
+}
+.FB img{
+    position: absolute;
+    top: 35px;
+    left: 5%;
+    height: 70px;
+}
+
+.F h1 {
+    position: absolute;
+    font-size: 27px;
+    top: 100px;
+    left: 5%;
+    line-height: 19px;
+}
+
+.F h5 {
+    position: absolute;
+    font-size: 20px;
+    margin-bottom: 15px;
+    top: 190px;
+    left: 5%;
+}
+
+.BBB {
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    bottom: 270px;
+    left: 5%;
+}
+
+.B3, .B4 {
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.F h6 {
+    position: absolute;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: start;
+    bottom: 100PX;
+    left: 5%;
+}
+
+
+
+
+
+
+ /*  Internet*/
+
+
+
+
+.H {
+    width: 300px;
+    height: 550px;
+    perspective: 1000px; /* 3D perspective */
+    position: relative;
+    margin: 50px;
+    cursor: pointer;
+    top: -900px;
+    left: 200%;
+}
+
+.FI {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.H:hover .FI {
+    transform: rotateY(180deg); /* Flip effect */
+}
+.H section img {
+    position: absolute;
+    width: auto;
+    height: 200px;
+    top: 100px;
+    left: 17%;
+}
+
+.FF, .FB {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    padding: 20px;
+}
+
+.FF {
+    background: rgb(238, 213, 183);
+    color: #fff;
+    flex-direction: column;
+}
+
+.FB {
+    background:  rgb(253, 246, 236);
+    color: #000;
+    transform: rotateY(180deg); /* Back side flipped */
+    flex-direction: column;
+}
+
+/* Custom text & button styling */
+.H p {
+    font-size: 30px;
+    color: black;
+    position:absolute;
+    top: 280px;
+    left: 35%;
+    
+}
+.FB img{
+    position: absolute;
+    top: 35px;
+    left: 5%;
+    height: 70px;
+}
+
+.H h1 {
+    position: absolute;
+    font-size: 27px;
+    top: 100px;
+    left: 5%;
+    line-height: 19px;
+}
+
+.H h5 {
+    position: absolute;
+    font-size: 20px;
+    margin-bottom: 15px;
+    top: 190px;
+    left: 5%;
+}
+
+.BBBBB {
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    bottom: 270px;
+    left: 5%;
+}
+
+.B7, .B8 {
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.H h6 {
+    position: absolute;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: start;
+    bottom: 100PX;
+    left: 5%;
+}
+
+
+
+
+
+
+ /*  A.D.C.A*/
+
+
+
+
+
+
+.G {
+    width: 300px;
+    height: 550px;
+    perspective: 1000px; /* 3D perspective */
+    position: relative;
+    margin: 50px;
+    cursor: pointer;
+    top: -900px;
+    left: 250%;
+}
+
+.FI {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.G:hover .FI {
+    transform: rotateY(180deg); /* Flip effect */
+}
+.G section img {
+    position: absolute;
+    width: auto;
+    height: 200px;
+    top: 100px;
+    left: 4%;
+}
+
+.FF, .FB {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    padding: 20px;
+}
+
+.FF {
+    background: rgb(238, 213, 183);
+    color: #fff;
+    flex-direction: column;
+}
+
+.FB {
+    background:  rgb(253, 246, 236);
+    color: #000;
+    transform: rotateY(180deg); /* Back side flipped */
+    flex-direction: column;
+}
+
+/* Custom text & button styling */
+.G p {
+    font-size: 30px;
+    color: black;
+    position:absolute;
+    top: 280px;
+    left: 25%;
+    
+}
+.FB img{
+    position: absolute;
+    top: 35px;
+    left: 5%;
+    height: 70px;
+}
+
+.G h1 {
+    position: absolute;
+    font-size: 27px;
+    top: 100px;
+    left: 5%;
+    line-height: 19px;
+}
+
+.G h5 {
+    position: absolute;
+    font-size: 20px;
+    margin-bottom: 15px;
+    top: 170px;
+    left: 5%;
+}
+
+.BBBB {
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    bottom: 270px;
+    left: 5%;
+}
+
+.B5, .B6 {
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.G h6 {
+    position: absolute;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: start;
+    bottom: 72PX;
+    left: 5%;
+}
+
+
+ /*  Hardware*/
+
+
+
+
+
+
+
+.I {
+    width: 300px;
+    height: 550px;
+    perspective: 1000px; /* 3D perspective */
+    position: relative;
+    margin: 50px;
+    cursor: pointer;
+    top: -1500px;
+    left: 85%;
+}
+
+.FI {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.I:hover .FI {
+    transform: rotateY(180deg); /* Flip effect */
+}
+.I section img {
+    position: absolute;
+    width: auto;
+    height: 200px;
+    top: 100px;
+    left: 17%;
+}
+
+.FF, .FB {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    padding: 20px;
+}
+
+.FF {
+    background: rgb(192, 192, 192);
+    color: #fff;
+    flex-direction: column;
+}
+
+.FB {
+    background: rgb(238, 213, 183);
+    color: #000;
+    transform: rotateY(180deg); /* Back side flipped */
+    flex-direction: column;
+}
+
+/* Custom text & button styling */
+.I p {
+    font-size: 30px;
+    color: black;
+    position:absolute;
+    top: 280px;
+    left: 35%;
+    
+}
+.FB img{
+    position: absolute;
+    top: 35px;
+    left: 5%;
+    height: 70px;
+}
+
+.I h1 {
+    position: absolute;
+    font-size: 27px;
+    top: 100px;
+    left: 5%;
+    line-height: 19px;
+}
+
+.I h5 {
+    position: absolute;
+    font-size: 20px;
+    margin-bottom: 15px;
+    top: 190px;
+    left: 5%;
+}
+
+.BBBBBB {
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    bottom: 270px;
+    left: 5%;
+}
+
+.B9, .B10 {
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.I h6 {
+    position: absolute;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: start;
+    bottom: 100PX;
+    left: 5%;
+}
+
+
+
+ /* background of Courses*/
+
+.J gl-box{
+    width:100vw;
+    height: 80px;
+    margin: 0;
+    
+    background: rgba(0, 54, 3, 0.1);
+
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(53, 11, 83, 0.4);
+    
+
+    position:absolute;
+    top: 1000px;
+    left: 0px;
+    z-index: 1;
+    box-shadow: 2px 3px 40px;
+    overflow-x: hidden;
+}
+
+
+
+
+.gl{
+    width:100%;
+    height: 200vh;
+    
+    background: rgb(238, 213, 183);
+
+    backdrop-filter: blur(0.3px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255,255,0.4);
+    object-fit: cover;
+    object-position: center;
+    
+
+    position: absolute;
+    top: -3190px;
+    left: 0px;
+    z-index: -1;
+    box-shadow: 2px 3px 40px;
+}
+.gl{
+    position: relative;
+}
+
+
+
+ /* Courses*/
+
+
+
+
+.J{
+    font-size: 60px;
+    
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(238, 213, 183);;
+    text-align: center;
+    top: 280px;
+    text-decoration: underline;
+    text-decoration-color:rgb(238, 213, 183); ;
+    text-decoration-thickness:5px ;
+   
+ 
+
+
+}
+.J{
+    position: relative;
+}
+.J img{
+    position: absolute;
+    top: -120px;
+    left: 47%;
+
+    height: 100px;
+    
+}
+
+
+.J section {
+  scroll-margin-top: 34vh;
+  scroll-behavior:smooth;
+  
+
+
+   
+}
+
+
+
+.M section {
+    position: absolute;
+    left: 43%;
+    font-size: 60px;
+    top: 1700px;
+
+}
+
+.P{
+    position: relative;
+}
+.N {
+    position: absolute;
+    font-size: 30px;
+    top: 1800px;
+    left: 5%;
+    right: 30%;
+    text-align: left;
+}
+.N h1{
+    text-underline-position: below;
+    text-underline-offset: 20px;
+}
+
+
+.O {
+    position: absolute;
+    font-size: 30px;
+     top: 2200px;
+    left: 30%;
+    right: 5%;
+    text-align: right;
+}
+.O h1{
+    text-underline-position: below;
+    text-underline-offset: 20px;
+}
+.Q {
+    position: absolute;
+    font-size: 30px;
+     top: 2550px;
+    left: 5%;
+    right: 30%;
+    text-align: left;
+
+}
+.Q h1{
+    text-underline-position: below;
+    text-underline-offset: 20px;
+}
+
+
+
+.R {
+    transform: rotate(90deg);
+    
+    height: 1000px;
+    margin-top: 1500px;
+   float: right;
+  
+  
+   
+    
+}
+
+
+
+.S {
+    transform: rotate(-90deg);
+    
+    height: 800px;
+    margin-top: 1977px;
+    float: left;
+  
+  
+   
+    
+}
+    
+
+.T {
+    transform: rotate(90deg);
+    
+    height: 1200px;
+    margin-top: 2190px;
+    float: right;
+  
+}
+
+
+.U {
+     position: absolute;
+    top: 750px;
+    left: 0;
+    width: 100%;
+    height: 230vh;
+    z-index: -1;
+    object-fit: cover;
+    object-position: center;
+    filter: blur(10px);
+    opacity: 80%;
+
+
+
+
+
+
+
+    
+    margin: 0;
+    
+    background: rgb(33, 33, 33);
+
+    
+    border-radius: 10px;
+    border: 1px solid rgba(53, 11, 83, 0.9);
+    
+
+    position: absolute;
+    top: 750px;
+    left: 0px;
+    z-index: -1;
+    box-shadow: 2px 3px 40px;
+    overflow-x: hidden;
+}
+
+
+
+
+.V{
+    position: absolute;
+    height: 250px;
+    top: 1880px;
+    right: 2%;
+
+}
+
+
+.W{
+    position: absolute;
+    height: 400px;
+    top: 2590px;
+    right: 6%;
+
+}
+
+
+
+.X {
+     
+    width: 600px;
+    height: 11vh;
+    
+    object-fit: cover;
+    object-position: center;
+   
+    opacity: 100%;
+
+
+
+
+
+
+
+    
+    margin: 0;
+    
+    background:  rgb(255, 214, 214);
+
+    
+    border-radius: 50px;
+    border: 1px solid rgba(229, 223, 233, 0.9);
+    
+
+    position: absolute;
+    top: 1015px;
+    left: 30%;
+    z-index: -2;
+    box-shadow: 2px 3px 40px;
+    overflow-x: hidden;
+}
+.Y{
+    font-size: 80px;
+    position: absolute;
+    top: 4000px;
+    left: 40%;
+
+}
