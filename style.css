@@ -121,7 +121,7 @@ body {
     font-size: clamp(1rem, 4vw, 1.5rem); /* Responsive font size */
     color: #fff;
     border: 2px solid #fff;
-    padding: 10px 200px;
+    padding: 10px 100px;
     border-radius: 50px;
     display: inline-block;
     margin-top: 20px;
@@ -453,4 +453,5 @@ body {
     margin-bottom: 20px;    
     align-items: flex-end;
 }
+
 
