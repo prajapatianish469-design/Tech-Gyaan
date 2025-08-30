@@ -449,11 +449,25 @@ body {
         font-size: 0.9rem;
     }
 }
-.about-item img{
-    height: 20px;
-    margin-bottom: 20px;    
-    align-items: flex-end;
+.BBB{
+    position: absolute;
+    
+    top: 10%;
+    right: 4%;
+    height: 350px;
+  display: flex;
+
 }
+.AAA{
+    position: absolute;
+    
+    top: 10%;
+    left: 4%;
+    height: 350px;
+  display: flex;
+
+}
+
 
 
 
