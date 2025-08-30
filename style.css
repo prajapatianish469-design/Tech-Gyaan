@@ -457,7 +457,7 @@ body {
         font-size: 1rem;
     }
     .about-text h3, .about-text p, .about-text ul {
-        color: #fff;
+        color: #000;
     }
 
     /* --- Mobile Contact Section --- */
@@ -514,6 +514,7 @@ body {
     text-align: center;
   }
 }
+
 
 
 
