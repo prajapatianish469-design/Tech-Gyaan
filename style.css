@@ -12,7 +12,7 @@ html {
 
 body {
     overflow-x: hidden;
-    background-color: #ffffff; /* A dark background for the page */
+    background-color: #ffffff;
     color: #f5f5f5;
 }
 
@@ -55,12 +55,11 @@ body {
     z-index: 1000;
     
     -webkit-backdrop-filter: blur(10px);
-    border-top:none ;
+    border-top: none;
     border-radius: 20px;
-     border: 1px solid rgba(0, 0, 0, 0.6);
-     box-shadow: 2px 3px 40px;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    box-shadow: 2px 3px 40px rgba(0, 0, 0, 0.5);
     overflow-x: hidden;
-    box-shadow: #000;
 }
 
 .logo-container {
@@ -94,15 +93,11 @@ body {
     border: 2px solid transparent;
     border-radius: 50px;
     transition: all 0.3s ease;
-     text-decoration: none;
-    border-bottom: none;
-    text-shadow: 0PX 0PX 30PX rgba(255, 255,255,10);
+    text-shadow: 0px 0px 30px rgba(255, 255,255, 0.1);
     border: 2px solid#fff;
     border-radius: 50px;
     padding: 5px 15px;
     border-bottom: none;
-
-
 }
 
 .nav-item:hover {
@@ -112,16 +107,16 @@ body {
 }
 
 .hero-content h1 {
-    font-size: clamp(3rem, 10vw, 6rem); /* Responsive font size */
+    font-size: clamp(3rem, 10vw, 6rem);
     color: #fff;
     text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-content a {
-    font-size: clamp(1rem, 4vw, 1.5rem); /* Responsive font size */
+    font-size: clamp(1rem, 4vw, 1.5rem);
     color: #fff;
     border: 2px solid #fff;
-    padding: 10px 100px;
+    padding: 10px 200px;
     border-radius: 50px;
     display: inline-block;
     margin-top: 20px;
@@ -158,6 +153,7 @@ body {
     text-decoration-color: rgb(238, 213, 183);
     text-decoration-thickness: 4px;
     text-underline-offset: 8px;
+    color: #f5f5f5;
 }
 
 .courses-container {
@@ -222,7 +218,7 @@ body {
     background: rgb(253, 246, 236);
     color: #000;
     transform: rotateY(180deg);
-    justify-content: flex-start; /* Align content to the top */
+    justify-content: flex-start;
 }
 
 .card-back img {
@@ -266,8 +262,8 @@ body {
 
 /* --- ABOUT US SECTION STYLES (SECTION 3) --- */
 .about-section {
-    padding: 100px 0; /* Adjusted padding to allow full width backgrounds */
-    background-color: #ffffff; /* Overall background for the section */
+    padding: 100px 0;
+    background-color: #ffffff;
     color: #f5f5f5;
 }
 
@@ -275,28 +271,42 @@ body {
     color: #000000;
     text-decoration-color: #000000;
     margin-bottom: 60px;
+
+
+
+    font-size: clamp(2rem, 7vw, 2.5rem);
+    
+    border: 2px solid #000000;
+    padding: 10px 100px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 20px;
+    background-color: rgba(2, 81, 98, 0.2);
+   
+    text-decoration: none;
 }
+
+
+
+
 
 .about-content-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 0; /* Gap between items will be handled by padding/margins within items */
+    gap: 0;
 }
 
 .about-item {
     display: flex;
     align-items: center;
-    padding: 50px 8%; 
-    position: relative; 
-    overflow: hidden; 
-    z-index: 1; 
-    min-height: 450px; 
+    padding: 50px 8%;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    min-height: 450px;
 }
 
-.about-item:nth-child(even) { /* For "About Me" */
-    flex-direction: row-reverse;
-}
-
+/* Base style for the image and fade effect */
 .about-item::before {
     content: '';
     position: absolute;
@@ -304,45 +314,51 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1; 
+    z-index: -1;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
-/* Fading background for "Who We Are" */
+/* Item 1: Text on left, image background on right */
 .about-item:nth-child(1)::before {
-    background: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) 70%), url('images/Setting-up-a-Computer-training-institute-in-Dubai.jpg') no-repeat center center/cover;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) 70%), url('images/Setting-up-a-Computer-training-institute-in-Dubai.jpg');
 }
 
-/* Fading background for "About Me" */
+/* Item 2: Text on right, image background on left */
+.about-item:nth-child(2) {
+    flex-direction: row-reverse;
+}
 .about-item:nth-child(2)::before {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) 70%), url('images/1.JPG') no-repeat center center/cover;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) 70%), url('images/1.JPG');
 }
 
-/* Fading background for "About Institute" */
+/* Item 3: Text on left, image background on right */
 .about-item:nth-child(3)::before {
-    background: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) 70%), url('images/download.jpeg') no-repeat center center/cover;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) 70%), url('images/download.jpeg');
 }
 
 .about-text {
     flex: 1;
-    max-width: 60%; 
-    margin-right: 5%; 
+    max-width: 60%;
+    margin-right: 5%;
 }
 
-.about-item:nth-child(even) .about-text {
-    margin-left: 5%; 
+.about-item:nth-child(2) .about-text {
+    margin-left: 5%;
     margin-right: 0;
     text-align: right;
     color: #000;
 }
 
 .about-text h3 {
-    font-size: 2.2rem;
+    font-size: 3.2rem;
     margin-bottom: 20px;
     color: #000;
 }
 
 .about-text p, .about-text ul {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     line-height: 1.7;
     color: #000;
 }
@@ -372,9 +388,8 @@ body {
     font-style: normal;
 }
 
-
+/* --- MEDIA QUERY FOR MOBILE DEVICES --- */
 @media (max-width: 768px) {
-    
     /* --- Mobile Navigation --- */
     .glass-header {
         flex-direction: column;
@@ -386,7 +401,7 @@ body {
     }
 
     .navigation ul {
-        flex-wrap: wrap; 
+        flex-wrap: wrap;
         justify-content: center;
         gap: 5px;
         padding: 0;
@@ -409,24 +424,25 @@ body {
         padding: 30px 5%;
         min-height: 300px;
     }
-
+    
     .about-item::before {
-        /* On mobile, the fade covers more, so a stronger gradient might look better */
-        background-blend-mode: multiply; 
-    }
-     .about-item:nth-child(1)::before,
-     .about-item:nth-child(2)::before,
-     .about-item:nth-child(3)::before {
         background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), var(--bg-image) no-repeat center center/cover;
-     }
-
-     .about-item:nth-child(1) { --bg-image: url('Setting-up-a-Computer-training-institute-in-Dubai.jpg'); }
-     .about-item:nth-child(2) { --bg-image: url('Setting-up-a-Computer-training-institute-in-Dubai.jpg'); }
-     .about-item:nth-child(3) { --bg-image: url('Setting-up-a-Computer-training-institute-in-Dubai.jpg'); }
+    }
+    
+    .about-item:nth-child(1)::before {
+        --bg-image: url('images/Setting-up-a-Computer-training-institute-in-Dubai.jpg');
+    }
+    .about-item:nth-child(2)::before {
+        --bg-image: url('images/1.JPG');
+    }
+    .about-item:nth-child(3)::before {
+        --bg-image: url('images/download.jpeg');
+    }
 
     .about-text {
         max-width: 100%;
         margin: 0;
+        color: #fff; /* Ensure text is readable on dark mobile background */
     }
 
     .about-item:nth-child(even) .about-text {
@@ -438,10 +454,13 @@ body {
         font-size: 1.8rem;
     }
     .about-text p, .about-text ul {
-        font-sze: 1rem;
+        font-size: 1rem;
+    }
+    .about-text h3, .about-text p, .about-text ul {
+        color: #fff;
     }
 
-     /* --- Mobile Contact Section --- */
+    /* --- Mobile Contact Section --- */
     .contact-section h3 {
         font-size: 2rem;
     }
@@ -449,25 +468,52 @@ body {
         font-size: 0.9rem;
     }
 }
-.BBB{
-    position: absolute;
-    
-    top: 10%;
-    right: 4%;
-    height: 350px;
-  display: flex;
 
-}
-.AAA{
-    position: absolute;
-    
-    top: 10%;
-    left: 4%;
-    height: 350px;
-  display: flex;
 
+
+
+
+
+
+
+
+.about-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
 }
 
+.about-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* Alternate layout: reverse for even sections */
+.about-item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.about-text, .about-image {
+  flex: 1;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .about-item,
+  .about-item:nth-child(even) {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 
 
 
