@@ -322,7 +322,7 @@ body {
 
 /* Item 1: Text on left, image background on right */
 .about-item:nth-child(1)::before {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) 70%), url('images/Setting-up-a-Computer-training-institute-in-Dubai.jpg');
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) 70%), url('images/Setting-up-a-Computer-training-institute-in-Dubai.jpg');
 }
 
 /* Item 2: Text on right, image background on left */
@@ -330,12 +330,12 @@ body {
     flex-direction: row-reverse;
 }
 .about-item:nth-child(2)::before {
-    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) 70%), url('images/1.JPG');
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) 70%), url('images/1.JPG');
 }
 
 /* Item 3: Text on left, image background on right */
 .about-item:nth-child(3)::before {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) 70%), url('images/download.jpeg');
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) 70%), url('images/download.jpeg');
 }
 
 .about-text {
@@ -514,6 +514,7 @@ body {
     text-align: center;
   }
 }
+
 
 
 
