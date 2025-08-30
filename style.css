@@ -442,7 +442,7 @@ body {
     .about-text {
         max-width: 100%;
         margin: 0;
-        color: #fff; /* Ensure text is readable on dark mobile background */
+        color: #000; /* Ensure text is readable on dark mobile background */
     }
 
     .about-item:nth-child(even) .about-text {
@@ -514,6 +514,7 @@ body {
     text-align: center;
   }
 }
+
 
 
 
