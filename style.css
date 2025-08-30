@@ -117,7 +117,7 @@ body {
     text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
-.hero-content p {
+.hero-content a {
     font-size: clamp(1rem, 4vw, 1.5rem); /* Responsive font size */
     color: #fff;
     border: 2px solid #fff;
@@ -129,7 +129,7 @@ body {
     transition: all 0.3s ease;
 }
 
-.hero-content p:hover {
+.hero-content a:hover {
     background-color: #fff;
     color: #000;
 }
@@ -453,5 +453,6 @@ body {
     margin-bottom: 20px;    
     align-items: flex-end;
 }
+
 
 
