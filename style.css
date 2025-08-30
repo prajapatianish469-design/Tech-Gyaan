@@ -420,9 +420,9 @@ body {
         background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), var(--bg-image) no-repeat center center/cover;
      }
 
-     .about-item:nth-child(1) { --bg-image: url('images/Setting-up-a-Computer-training-institute-in-Dubai.jpg'); }
-     .about-item:nth-child(2) { --bg-image: url('images/1.JPG'); }
-     .about-item:nth-child(3) { --bg-image: url('images/download.jpeg'); }
+     .about-item:nth-child(1) { --bg-image: url('Setting-up-a-Computer-training-institute-in-Dubai.jpg'); }
+     .about-item:nth-child(2) { --bg-image: url('Setting-up-a-Computer-training-institute-in-Dubai.jpg'); }
+     .about-item:nth-child(3) { --bg-image: url('Setting-up-a-Computer-training-institute-in-Dubai.jpg'); }
 
     .about-text {
         max-width: 100%;
@@ -467,6 +467,7 @@ body {
   display: flex;
 
 }
+
 
 
 
