@@ -285,11 +285,11 @@ body {
 .about-item {
     display: flex;
     align-items: center;
-    padding: 50px 8%; /* Padding for content within each item */
-    position: relative; /* Needed for pseudo-elements */
-    overflow: hidden; /* Ensures pseudo-elements don't spill */
-    z-index: 1; /* Ensures content is above the pseudo-element */
-    min-height: 450px; /* Ensure sufficient height for the fade effect */
+    padding: 50px 8%; 
+    position: relative; 
+    overflow: hidden; 
+    z-index: 1; 
+    min-height: 450px; 
 }
 
 .about-item:nth-child(even) { /* For "About Me" */
@@ -303,7 +303,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1; /* Place behind content */
+    z-index: -1; 
 }
 
 /* Fading background for "Who We Are" */
@@ -323,12 +323,12 @@ body {
 
 .about-text {
     flex: 1;
-    max-width: 60%; /* Limit text width to make room for fade */
-    margin-right: 5%; /* Space for the fade effect */
+    max-width: 60%; 
+    margin-right: 5%; 
 }
 
 .about-item:nth-child(even) .about-text {
-    margin-left: 5%; /* For "About Me" on the right */
+    margin-left: 5%; 
     margin-right: 0;
     text-align: right;
     color: #000;
@@ -371,9 +371,7 @@ body {
     font-style: normal;
 }
 
-/* --- ============================================= --- */
-/* --- MEDIA QUERY FOR MOBILE DEVICES (THE MAGIC PART) --- */
-/* --- ============================================= --- */
+
 @media (max-width: 768px) {
     
     /* --- Mobile Navigation --- */
@@ -387,7 +385,7 @@ body {
     }
 
     .navigation ul {
-        flex-wrap: wrap; /* Allow nav items to wrap */
+        flex-wrap: wrap; 
         justify-content: center;
         gap: 5px;
         padding: 0;
@@ -400,12 +398,12 @@ body {
 
     /* --- Mobile Hero Section --- */
     .hero-content {
-        margin-top: 100px; /* Add space below the taller header */
+        margin-top: 100px;
     }
 
     /* --- Mobile About Us Section --- */
     .about-item, .about-item:nth-child(even) {
-        flex-direction: column; /* Stack image and text vertically */
+        flex-direction: column;
         text-align: center;
         padding: 30px 5%;
         min-height: 300px;
@@ -413,7 +411,7 @@ body {
 
     .about-item::before {
         /* On mobile, the fade covers more, so a stronger gradient might look better */
-        background-blend-mode: multiply; /* Helps text pop */
+        background-blend-mode: multiply; 
     }
      .about-item:nth-child(1)::before,
      .about-item:nth-child(2)::before,
@@ -426,7 +424,7 @@ body {
      .about-item:nth-child(3) { --bg-image: url('images/download.jpeg'); }
 
     .about-text {
-        max-width: 100%; /* Text takes full width */
+        max-width: 100%;
         margin: 0;
     }
 
@@ -455,3 +453,4 @@ body {
     margin-bottom: 20px;    
     align-items: flex-end;
 }
+
