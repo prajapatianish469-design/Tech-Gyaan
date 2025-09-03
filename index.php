@@ -1,0 +1,252 @@
+<?php require_once __DIR__ . '/../app/lib/helpers.php'; ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Gyaan</title>
+    <link rel="icon" type="image/png" href="C:\html code\removed-background.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero-container" id="Home">
+        <video autoplay muted loop plays-inline class="bg-video">
+            <source src="\school_portal\public\14209be516fa515f67b351b20bc84be5.mp4" type="video/mp4">
+        </video>
+        
+        <div class="glass-header">
+            <div class="logo-container">
+                <img src="\school_portal\public\removed-background.png" alt="Logo" class="logo-img">
+                <p class="logo-text">TECH GYAAN</p>
+            </div>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#Home" class="nav-item smoothscroll">Home</a></li>
+                    <li><a href="#Courses" class="nav-item smoothscroll">Courses</a></li>
+                    <li><a href="#About-Us" class="nav-item smoothscroll">About Us</a></li>
+                    <li><a href="#Contact" class="nav-item smoothscroll">Contact Us</a></li>
+                    <li><a href="\school_portal\app/auth/student_apply.php" class="nav-item smoothscroll">Enroll Now</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="hero-content">
+            <h1>TECH GYAAN</h1>
+            <a href="\school_portal\app/auth/student_apply.php">Hack Your Skills</a>
+        </div>
+
+
+
+        
+     <!-- 🔹 Portal Access Section -->
+    <section class="login-section" id="Portal">
+      
+      
+      <div class="login-container">
+
+        <!-- Student Application -->
+        <div class="login-card">
+          <div class="AA">
+          <img src="\school_portal\public\372f0e9a-444c-4afc-b857-04958c3fedbe-removebg-preview.png" alt="Student Application">
+          <h3>Student Application</h3>
+          <p>Submit your admission form online</p>
+          <a href="\school_portal\app/auth/student_apply.php" class="btn">Click here →</a>
+</div>
+        </div>
+
+        <!-- Student Login -->
+        <div class="login-card">
+          <img src="\school_portal\public\39adbc92-45ef-44fc-8090-b9818dd25d0d-removebg-preview.png" alt="Student Login">
+          <h3>Student Login</h3>
+          <p>Login to check your dashboard</p>
+          <a href="\school_portal\student/login.php" class="btn">Click here →</a>
+        </div>
+
+        <!-- Admin Login -->
+        <div class="login-card">
+          <img src="\school_portal\public\Management_Icon_Clipart_Transparent_PNG_Hd__Vector_Management_Icon__Management_Icons__Business__Management_PNG_Image_For_Free_Download-removebg-preview.png" alt="Admin Login">
+          <h3>Admin Login</h3>
+          <p>Manage students & materials</p>
+          <a href="\school_portal\admin/login.php" class="btn">Click here →</a>
+        </div>
+
+      </div>
+    </section>
+
+
+
+    </header>
+   
+
+
+    <main>
+                <section class="courses-section" id="Courses">
+            <div class="section-title">
+                <img src="\school_portal\public\courses-icon-4.png" alt="Courses Icon">
+                <h2>OUR COURSES</h2>
+            </div>
+            
+            <div class="courses-container">
+                <div class="course-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="\school_portal\public\file_0000000049186230844f8c0b7eccb16e.png" alt="Computer Icon">
+                            <p>Basic about computer</p>
+                        </div>
+                        <div class="card-back">
+                            <img src="\school_portal\public\file_0000000049186230844f8c0b7eccb16e.png" alt="Computer Icon">
+                            <h1>Basic about computer</h1>
+                            <h5>Understand the fundamentals</h5>
+                            <div class="tags">
+                                <button>Beginner</button>
+                                <button>Hands-on</button>
+                            </div>
+                            <h6>Operate a computer confidently: OS basics, files & folders, typing, peripherals, and intro to common apps.</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="card-inner">
+                        <div class="card-front" style="background-color: rgb(238, 213, 183);">
+                            <img src="\school_portal\public\file_0000000049186230844f8c0b7eccb16e(1)(1)(1)(1)2.png" alt="Tally Icon">
+                            <p>Tally Erp-9</p>
+                        </div>
+                        <div class="card-back">
+                            <img src="\school_portal\public\file_0000000049186230844f8c0b7eccb16e(1)(1)(1)(1)2.png" alt="Tally Icon">
+                            <h1>Business accounting made simple</h1>
+                            <h5>Business accounting made simple</h5>
+                            <div class="tags">
+                                <button>Accounting</button>
+                                <button>GST</button>
+                            </div>
+                            <h6>Company creation, ledgers, vouchers, inventory, GST, and financial reports with real-life scenarios.</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="card-inner">
+                        <div class="card-front" style="background-color: rgb(238, 213, 183);">
+                            <img src="\school_portal\public\ChatGPT_Image_Aug_14__2025__12_17_39_AM-removebg-preview.png" alt="ADCA Icon">
+                            <p>A.D.C.A</p>
+                        </div>
+                        <div class="card-back">
+                            <img src="\school_portal\public\ChatGPT_Image_Aug_14__2025__12_17_39_AM-removebg-preview.png" alt="ADCA Icon">
+                            <h1>A.D.C.A</h1>
+                            <h5>Advanced Diploma in Computer Applications</h5>
+                            <div class="tags">
+                                <button>Diploma</button>
+                                <button>Projects</button>
+                            </div>
+                            <h6>Comprehensive diploma covering OS basics, office suites, database management, and project work for advanced skills.</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="card-inner">
+                        <div class="card-front" style="background-color: rgb(238, 213, 183);">
+                               <img src="\school_portal\public\file_0000000049186230844f8c0b7eccb16e(1)(1)(1)(1).png" alt="Internet Icon">
+                            <p>Internet</p>
+                        </div>
+                        <div class="card-back">
+                            <img src="\school_portal\public\file_0000000049186230844f8c0b7eccb16e(1)(1)(1)(1).png" alt="Internet Icon">
+                            <h1>Internet</h1>
+                            <h5>Navigate the digital world</h5>
+                            <div class="tags">
+                                <button>Email</button>
+                                <button>Safety</button>
+                            </div>
+                            <h6>Web browsing, search skills, email, cloud tools, online forms, and digital safety so you can use the internet effectively.</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="card-inner">
+                        <div class="card-front" style="background-color: rgb(238, 213, 183);">
+                            <img src="\school_portal\public\file_0000000049186230844f8c0b7eccb16e(1)(1)(1)34(1).png" alt="Hardware Icon">
+                            <p>Hardware</p>
+                        </div>
+                        <div class="card-back">
+                            <img src="\school_portal\public\file_0000000049186230844f8c0b7eccb16e(1)(1)(1)34(1).png" alt="Hardware Icon">
+                            <h1>Hardware</h1>
+                            <h5>Build & repair computers</h5>
+                            <div class="tags">
+                                <button>Practical</button>
+                                <button>Troubleshooting</button>
+                            </div>
+                            <h6>Identify components, assemble systems, install OS, diagnose issues, and perform repairs with professional techniques.</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="about-section" id="About-Us">
+    <div class="section-title">
+        <h2>About Us</h2>
+    </div>
+    <div class="about-content-wrapper">
+
+        <!-- Block 1 -->
+        <div class="about-item" id="who-we-are">
+            <div class="about-text">
+                <h3>Who We Are</h3>
+                <p>At Bright Future Computer Institute, we provide high-quality and affordable computer education. Our aim is to empower individuals with practical digital skills that help them succeed in academics, careers, and everyday life.</p>
+            </div>
+            <div class="about-image">
+                <img src="\school_portal\public\Setting-up-a-Computer-training-institute-in-Dubai.jpg" alt="Who We Are">
+            </div>
+        </div>
+
+        <!-- Block 2 -->
+        <div class="about-item" id="about-me">
+            <div class="about-text">
+                <h3>About Me</h3>
+                <p>I am Ajit Kumar, an IT Consultant with strong expertise in Information Technology and computer education. I started this institute with a vision to make computer literacy accessible to everyone and help them build confidence in technology.</p>
+            </div>
+            <div class="about-image">
+                <img src="\school_portal\public\Setting-up-a-Computer-training-institute-in-Dubai.jpg" alt="About Me">
+            </div>
+        </div>
+
+        <!-- Block 3 -->
+        <div class="about-item" id="about-institute">
+            <div class="about-text">
+                <h3>About Institute</h3>
+                <p>Bright Future Computer Institute offers a wide range of computer training programs, including:</p>
+                <ul>
+                    <li>Basic Computer Skills</li>
+                    <li>Tally ERP-9</li>
+                    <li>ADCA (Advanced Diploma)</li>
+                    <li>Internet Applications</li>
+                    <li>Hardware Training</li>
+                </ul>
+            </div>
+            <div class="about-image">
+                <img src="\school_portal\public\download.jpeg" alt="About Institute">
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+    </main>
+    
+    <footer class="contact-section" id="Contact">
+        <h3>Contact Us</h3>
+        <div class="contact-details">
+            <p><strong>Contact Number:</strong> +91 9097647504, +91 8789102619</p>
+            <address>
+                <strong>Address:</strong> Near Ambedkar chowk T.T.P.S Lalpania, Bokaro, Jharkhand 829149
+            </address>
+        </div>
+    </footer>
+
+</body>
+</html>
